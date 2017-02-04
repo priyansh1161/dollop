@@ -12,7 +12,7 @@
                 }
                 if(index < iterations){
                     index++;
-                    async(data);
+                    async(loop,data);
                 }
                 else {
                     done = true;
