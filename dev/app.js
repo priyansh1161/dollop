@@ -1,5 +1,5 @@
 
-(function () {
+function Dollop() {
     // this function will be helpful when you need to call an async opt one after other in sync
     var dollop = {};
     dollop.prototype.asyncLoop = function (iterations, data, async, cb) {
@@ -27,4 +27,4 @@
         return loop;
     };
     return dollop;
-})();
+}
